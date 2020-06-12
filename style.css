@@ -1,0 +1,63 @@
+header {
+  background-image: url("assets/background.png");
+  background-color: #312e38;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+}
+
+.image-color {
+  height: 100vh;
+}
+
+.image-1 {
+  background-image: url("assets/background2.png");
+  background-color: #312e38;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+}
+
+.image-2 {
+  background-image: url("assets/background3.png");
+  background-color: #312e38;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+}
+
+.image-3 {
+  background-image: url("assets/background4.png");
+  background-color: #312e38;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+}
+
+.image-bia {
+  background-image: url("assets/test.jpeg");
+  background-color: #312e38;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+}
+
+.brands {
+  margin-right: 15px;
+}
