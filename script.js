@@ -4,17 +4,10 @@ $(document).ready(() => {
 
     const twitchName = $("#twitch_name").val();
     const instagramName = $("#instagram_name").val();
-    const instagramCheck = $("#instagram_check").is(":checked");
-    const twitchCheck = $("#twitch_check").is(":checked");
-    const namicoinsCheck = $("#namicoins_check").is(":checked");
-    const wichPremium = $("input[name=wich]:checked").val();
 
     if (
       !twitchName ||
-      !instagramName ||
-      !twitchCheck ||
-      !instagramCheck ||
-      !namicoinsCheck
+      !instagramName
     ) {
       Swal.fire({
         title: "Preencha todos os dados",
@@ -31,7 +24,6 @@ $(document).ready(() => {
       isValid: false,
       isSub: false,
       isVip: false,
-      wichPremium,
     };
     firebase.database().ref().child("participants").push(data);
     Swal.fire({
