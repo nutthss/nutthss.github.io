@@ -118,36 +118,43 @@ $(document).ready(() => {
       "isVip" : false,
       "twitchName" : "gabriel_pc14"
     },
-      {
-      "instagramName" : "Kaue._vitor",
-      "isSub" : false,
-      "isValid" : true,
-      "isVip" : false,
-      "twitchName" : "Kauevitor66XT"
-    },
     {
-      "instagramName" : "GMBM",
-      "isSub" : false,
-      "isValid" : true,
-      "isVip" : false,
-      "twitchName" : "Pengis"
-    },
-    {
-      "instagramName" : "Nicolas Eckhardt",
-      "isSub" : false,
-      "isValid" : true,
-      "isVip" : false,
-      "twitchName" : "MundonEck"
-    },
-    {
-      "instagramName" : "luisfepo",
-      "isSub" : true,
-      "isValid" : true,
-      "isVip" : false,
-      "twitchName" : "SraLuxanna"
-    }
+    "instagramName" : "Kaue._vitor",
+    "isSub" : false,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "Kauevitor66XT"
+  },
+  {
+    "instagramName" : "GMBM",
+    "isSub" : false,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "Pengis"
+  },
+  {
+    "instagramName" : "Nicolas Eckhardt",
+    "isSub" : false,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "MundonEck"
+  },
+  {
+    "instagramName" : "luisfepo",
+    "isSub" : true,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "SraLuxanna"
+  },
+  {
+    "instagramName" : "cyrouxxx",
+    "isSub" : true,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "cyrouxxx"
+  }
   ];
-
+  cyrouxxx
   console.log(participantes);
 
   const all = [];
