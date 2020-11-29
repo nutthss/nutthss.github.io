@@ -152,9 +152,15 @@ $(document).ready(() => {
     "isValid" : true,
     "isVip" : false,
     "twitchName" : "cyrouxxx"
+  },
+  {
+    "instagramName" : "djierghiovhdi",
+    "isSub" : true,
+    "isValid" : true,
+    "isVip" : false,
+    "twitchName" : "djierghiovhdi"
   }
   ];
-  cyrouxxx
   console.log(participantes);
 
   const all = [];
