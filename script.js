@@ -43,7 +43,7 @@ $(document).ready(() => {
     },
       {
       "instagramName" : "Doug_crf",
-      "isSub" : true,
+      "isSub" : false,
       "isValid" : true,
       "isVip" : false,
       "twitchName" : "masterdodo_"
@@ -148,14 +148,14 @@ $(document).ready(() => {
   },
   {
     "instagramName" : "cyrouxxx",
-    "isSub" : true,
+    "isSub" : false,
     "isValid" : true,
     "isVip" : false,
     "twitchName" : "cyrouxxx"
   },
   {
     "instagramName" : "djierghiovhdi",
-    "isSub" : true,
+    "isSub" : false,
     "isValid" : true,
     "isVip" : false,
     "twitchName" : "djierghiovhdi"
