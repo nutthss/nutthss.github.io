@@ -168,7 +168,7 @@ $(document).ready(() => {
 
   console.log(all);
 
-  // embaralha(all);
+  embaralha(all);
 
   all.forEach((participante) => {
     $("#lista").append(`
