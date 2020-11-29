@@ -31,7 +31,7 @@ $(document).ready(() => {
       "instagramName" : "StynieOfficial",
       "isSub" : false,
       "isValid" : true,
-      "isVip" : false,
+      "isVip" : true,
       "twitchName" : "Stynie"
     },
     {
@@ -43,7 +43,7 @@ $(document).ready(() => {
     },
       {
       "instagramName" : "Doug_crf",
-      "isSub" : false,
+      "isSub" : true,
       "isValid" : true,
       "isVip" : false,
       "twitchName" : "masterdodo_"
@@ -168,7 +168,7 @@ $(document).ready(() => {
 
   console.log(all);
 
-  embaralha(all);
+  // embaralha(all);
 
   all.forEach((participante) => {
     $("#lista").append(`
