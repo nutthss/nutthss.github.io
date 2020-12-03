@@ -20,19 +20,184 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header style="display: flex; align-items: center;">
+      <div class="container text-white p-5 h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <h1>Quem sou eu? E que estou sorteando?</h1>
+            <p>
+              Olá, me chamo Bianka, tenho 21 anos, comecei a fazer live dia 22
+              de fevereiro, desde molequinha sou apaixonada por games, meu sonho
+              sempre foi stremar e fazer videos. Penso em crescer no ramo e
+              conseguir fazer a alegria de geral!
+            </p>
+            <p>
+              Estarei realizando 1 sorteio para vocês.<br />
+              Dia 28 de novembro : O ganhador poderá escolher entre umm Steam Card,
+              card RP ou Play Store. Para participar basta seguir todo o
+              regulamento. E aí? Você quer participar?
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="nutthss mt-5">
+              <img src="assets/a.jpeg" class="img-fluid nutthss-img" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="participate" style="display: flex; align-items: center;">
       <div class="container p-5 h-100">
         <div class="row">
-          <div class="col-sm-12 mt-3">
-            <button
-              type="button"
-              name=""
-              id="sortear"
-              class="btn btn-primary btn-lg btn-block"
-            >
-              Sortear
-            </button>
-            <ul class="list-group mt-5" id="lista"></ul>
+          <div class="col-12">
+            <h1 class="text-center mb-5">Veja como é fácil participar!</h1>
+          </div>
+          <div class="col-sm-12 col-md-3 mt-3">
+            <div class="card-body">
+              <h5 class="card-title">1 - Seguir nas redes sociais.</h5>
+              <p class="card-text"></p>
+              <a
+                type="button"
+                href="https://www.instagram.com/nutthss"
+                target="_blank"
+                class="btn btn-primary btn-block text-white"
+              >
+                <img
+                  src="assets/instagram-brands.svg"
+                  alt=""
+                  width="20px"
+                  class="brands"
+                />
+                Instagram
+              </a>
+              <a
+                type="button"
+                href="https://www.twitch.tv/nutthss"
+                target="_blank"
+                class="btn btn-primary btn-block text-white"
+              >
+                <img
+                  src="assets/twitch-brands.svg"
+                  alt=""
+                  width="20px"
+                  class="brands"
+                />
+                Twitch
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 mt-3">
+            <div class="card-body">
+              <h5 class="card-title">
+                2 - Fazer o cadastro aqui.
+              </h5>
+              <p class="card-text">
+                O cadastro se encontra logo abaixo.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 mt-3">
+            <div class="card-body">
+              <h5 class="card-title">3 - Ter 70 ou + Namicoins.</h5>
+              <p class="card-text">
+                Para completar basta assistir 01 Hora de live.
+              </p>
+              <a
+                href="https://www.twitch.tv/nutthss"
+                target="_blank"
+                class="btn btn-primary btn-block"
+                >Assistir</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 mt-3">
+            <div class="card-body">
+              <h5 class="card-title">4 - Torça para ganhar.</h5>
+              <p class="card-text">
+                Esteja presente nos dias e aguarde o sorteio e escolha entre um
+                SteamCard, card RP ou Play Store
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="regulation" style="display: flex; align-items: center;">
+      <div class="container text-white p-5 h-100 text-center">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col" style="max-width: 960px;">
+            <h1>Regulamento</h1>
+            <p class="mt-5">
+              O período de participação na promoção será das 21h30m do dia
+              25.11.2020 até às 20h00m do dia 28.11.2020 (horário de Brasília –
+              DF).
+            </p>
+            <p>
+              Poderão participar da presente promoção todos os interessados, que
+              atenderem às regras deste Regulamento. Para efetivar a sua
+              participação, o interessado deverá, no período acima, acessar o
+              site nutthss.github.io e informar, obrigatoriamente, os seguintes
+              dados: redes sociais (Instagram e Twitch).
+            </p>
+            <p>
+              O fornecimento de informações falsas, incorretas, inválidas ou
+              imprecisas no cadastro acima, implicará na desclassificação do
+              participante, a qualquer momento.
+            </p>
+            <p>
+              Visando garantir a sua participação, deverá, ainda,
+              obrigatoriamente:<br />
+              - Seguir o canal da Twitch https://www.twitch.tv/nutthss<br />
+              - Seguir a página do Instagram
+              (https://www.instagram.com/nutthss/);
+            </p>
+
+            <p>
+              Desta forma, fica esclarecido que a participação só será completa
+              com o cadastro na plataforma e as inscrições nos canais acima
+              citados. Cada pessoa interessada poderá participar desta promoção
+              uma única vez.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="register" style="display: flex; align-items: center;">
+      <div class="container p-5 h-100">
+        <div class="row justify-content-md-center">
+          <div class="col-12">
+            <h1 class="text-center">Cadastro</h1>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <form class="mt-5" id="form">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="twitch_name"
+                      placeholder="Nome na Twitch"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="instagram_name"
+                      placeholder="Nome no Instagram"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary mt-1">
+                    Participar
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
